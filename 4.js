@@ -31,10 +31,10 @@ const products = [
   },
 ];
 
-const productsWithPhotos = products.filter(
-  (products) => products.photos && products.photos.lenght > 0
-)
+const productsWithPhotos = products.filter((products)=>products.photos && products.photos.lenght > 0);
+
 console.log(productsWithPhotos);
 
 products.sort((a, b) => a.price - b.price);
 console.log(products);
+
